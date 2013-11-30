@@ -1,0 +1,16 @@
+{
+  "name": "cover-map",
+  "repo": "yields/cover-map",
+  "description": "map coverage data from yields/instrument",
+  "keywords": ["coverage", "map", "test"],
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "development": {
+    "visionmedia/mocha-matrix": "*",
+    "visionmedia/mocha": "*",
+    "yields/instrument": "*",
+    "component/assert": "*"
+  }
+}
